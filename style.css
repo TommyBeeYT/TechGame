@@ -1,0 +1,58 @@
+nav{
+    background-color: #404040;
+    color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover{
+    background-color: #737373;
+}
+
+nav li{
+    padding: 15px;
+    display: inline-block;
+}
+
+
+
+.dropdown-content{
+    position: absolute;
+    background-color: #737373;
+    margin-top: 14px;
+    left: 8px;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+.dropdown{
+    padding: 14px 16px;
+
+}
+
+.dropdown-content a:hover{
+    background-color: #b3b3b3;
+}
+
+
+.dropdown-content a{
+    display: block;
+    padding: 15px;
+}
+
+body{
+    background-color: aquamarine;
+}
